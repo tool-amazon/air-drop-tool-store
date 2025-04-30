@@ -1,17 +1,15 @@
 # Một số lưu ý
 
-- Cứ thu thập dữ liệu 200 link, hệ thống sẽ chạy lại việc nhập captcha và zip code.
-
-- Nếu 1 chương trình con (1 sheet) ngừng thu thập dữ liệu và không có dấu hiệu thu thập tiếp -> dừng và bắt đầu lại.
+- Hệ thống chưa ổn định. Có thể tự đóng trong khi chạy
 
 # Hướng dẫn sử dụng
 
-## 1. Cập nhật sheet ID
-*Sheet ID sẽ do admin cung cấp. Nếu chưa có vui lòng liên hệ admin*
+## 1. Sheet ID liên kết với Device ID
+*Vui lòng cung cấp Device ID cho admin*
 
-- B1. Mở phần **Cài đặt**
-- B2. Nhập **Sheet ID** và nhấn nút **Cập nhật**
-- B3. Đợi thông báo. Nếu thất bại liên hệ lại với admin.
+- B1. Nhấn vào **Device ID** để copy
+- B2. Cung cấp cho admin và đợi
+- B3. Nhấn nút **Cập nhật** để lấy Sheet ID
 
 ## 2. Bảng điều khiển
 
@@ -23,11 +21,13 @@
 
 - Nút **Dừng**: Dừng và đóng tất cả các cửa sổ chrome.
 
-## 3. Stock
+## 3. Cài đặt
 
-- Đây là nởi để xem chi tiết việc thu thập dữ liệu và điều khiển riêng cho từng sheet.
+- **Số trình duyệt**: Số trình duyệt sẽ được mở và thu thập dữ liệu từ các trình duyệt đó. (*Lưu ý: Lựa chọn số trình duyệt phù hợp với cấu hình máy. Quá nhiều có thể gây ra tình trạng đơ*)
 
-- Dữ liệu sẽ được trả về sheet khi việc thu thập dữ liệu được dừng lại hoặc hoàn thành.
+- **Công thức cột giá**: Công thức thêm vào cho cột giá. (*Nếu không sử dụng có thể để trống.*)
+
+- **Lấy giá gốc**: Lấy giá bị gạch ngang nếu có
 
 ## 4. Sheet
 
